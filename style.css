@@ -1,0 +1,79 @@
+/*--------Первый блок--------*/
+.container {
+    border: 2px solid gray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    height: 265px;
+}
+
+.block-1 {
+    border: 2px solid gray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 90px;
+    height: 110px;
+    align-self: flex-start;
+    margin-top: 10px;
+}
+
+.cld-block1 {
+    border: 2px solid gray;
+    display: flex;
+    flex-wrap: wrap;
+    width: 75px;
+    height: 95px;
+}
+
+.cld2-block1-1 {
+    border: 2px solid gray;
+    width: 25px;
+    height: 25px;
+    margin-left: 2px;
+    margin-top: 7px;
+}
+
+.cld2-block1-2 {
+    border: 2px solid gray;
+    width: 25px;
+    height: 25px;
+    margin-left: 6px;
+    margin-top: 7px;
+}
+.cld2-block1-3 {
+    border: 2px solid gray;
+    width: 25px;
+    height: 35px;
+    margin-left: 44px;
+    margin-top: 7px;
+}
+/*--------Второй блок--------*/
+.block-2 {
+    border: 2px solid gray;
+    display: flex;
+    align-items: flex-end;
+    align-self: flex-end;
+    width: 90px;
+    height: 110px;
+    margin-bottom: 10px;
+}
+
+.cld-block2 {
+    border: 2px solid gray;
+    width: 50px;
+    height: 65px;
+    display: flex;
+    align-items: flex-end;
+    margin-left: 30px;
+    margin-bottom: 9px;
+}
+
+.cld2-block2-1 {
+    border: 2px solid gray;
+    width: 25px;
+    height: 25px;
+    margin-left: -2px;
+    margin-bottom: -2px;
+}
